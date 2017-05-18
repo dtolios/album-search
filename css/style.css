@@ -56,6 +56,18 @@ button {
   z-index: 2000;
 }
 
+h2 {
+  color: #fff;
+  font-size: 2em;
+  margin: 0px;
+  width: 600px;
+}
+
+h3 {
+  color: #ccc;
+  margin-top: 0px;
+}
+
 /* =================================
   Page Components
 ==================================== */
@@ -156,6 +168,60 @@ button {
   left: 0;
   margin: auto;
 }
+
+/* album DETAIL COMPONENTS -------- */
+
+.color-band {
+  background-color: #555;
+  height: 200px;
+  margin-top: -33px;
+}
+
+.album-details {
+  margin-top: -175px;
+}
+
+.left-column {
+  float: left;
+}
+
+#back-button {
+  color: #ccc;
+  width: 133px;
+  font-size: 1em;
+}
+
+.left-column > .album-art {
+  height: 330px;
+  width: 330px;
+  position: relative;
+  top: 25px;
+  border: 10px solid #fff;
+  box-sizing: content-box;
+}
+
+.left-column > .album-art > img {
+  width: inherit;
+}
+
+.right-column {
+  float: left;
+  margin-left: 70px;
+  margin-top: 55px;
+}
+
+#track-list {
+  margin-top: 35px;
+}
+
+#track-list > p {
+  font-weight: bold;
+}
+
+#track-list > ol {
+  margin-top: 20px;
+}
+
 
 /* =================================
   Layout Styles
