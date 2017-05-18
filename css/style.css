@@ -58,14 +58,15 @@ button {
 
 h2 {
   color: #fff;
-  font-size: 2em;
-  margin: 0px;
+  font-size: 1.5em;
+  margin: 0;
+  padding-top: 20px;
   width: 600px;
 }
 
 h3 {
   color: #ccc;
-  margin-top: 0px;
+  margin: 0;
 }
 
 /* =================================
@@ -81,10 +82,10 @@ h3 {
 }
 
 .main-title:before {
-  font-family: 'Material Icons';
-  content: "\E030";
-  vertical-align: middle;
-  font-size: 1.5em;
+    font-family: 'Material Icons', serif;
+    content: "\E030";
+    vertical-align: middle;
+    font-size: 1.5em;
 }
 
 .search-form input:last-of-type {
@@ -211,7 +212,7 @@ h3 {
 }
 
 #track-list {
-  margin-top: 35px;
+  padding-top: 35px;
 }
 
 #track-list > p {
